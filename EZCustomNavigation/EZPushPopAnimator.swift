@@ -106,11 +106,11 @@ public final class EZPushPopAnimator: NSObject, UIViewControllerAnimatedTransiti
                            animations: animationBlock,
                            completion: completionBlock)
         } else {
-            UIView.animateKeyframes(withDuration: duration,
-                                    delay: 0,
-                                    options: .calculationModeCubic,
-                                    animations: animationBlock,
-                                    completion: completionBlock)
+            UIView.animate(withDuration: duration,
+                           delay: 0,
+                           options: .curveEaseInOut,
+                           animations: animationBlock,
+                           completion: completionBlock)
         }
         
     }
