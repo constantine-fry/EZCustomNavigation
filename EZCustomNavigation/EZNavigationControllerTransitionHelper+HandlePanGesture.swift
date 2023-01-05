@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import UIKit
 
 extension EZNavigationControllerTransitionHelper {
     @objc func handlePopSwipe(_ gestureRecognizer: UIScreenEdgePanGestureRecognizer) {

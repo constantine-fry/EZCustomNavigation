@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 
 private let swizzling: (AnyClass, Selector, Selector) -> () = { forClass, originalSelector, swizzledSelector in
